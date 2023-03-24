@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug index.html in current folder in Chrome",
+            "url": "${fileDirname}/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
